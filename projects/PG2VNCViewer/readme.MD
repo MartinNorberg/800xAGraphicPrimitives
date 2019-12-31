@@ -57,4 +57,4 @@ Known Issues
       
 Installation, Uninstallation, Configuration and Examples
 -------------------------------------------
-... are described in the pg2 vnc client.pdf
+... are described in the [pg2 vnc client.pdf](./pg2 vnc client.pdf)
