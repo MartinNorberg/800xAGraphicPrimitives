@@ -38,10 +38,13 @@ VNC is a very old protocol. Encryption and secure login are not mandatory featur
 - No encryption. It is possible to spy keystrokes and screencaptures send trough the network. 
 - No secure login. VNC does not know usernames, only a few passwords for different access levels. The password will be transfered encrypted, but this kind of encryption is weak.
 - The VNC Password is (maybe) visible into PG2 Graphic Editor, and Graphics Documentations.
-Summary:	
+
+Summary:
+
 **DO  NOT  USE  VNC  OVER  THE  INTERNET!**
 **DO  NOT  USE  VNC  OVER  UNPROTECTED  LAN  NETWORKS!**
 **DO  NOT  USE  VNC  FOR  SECURE  CRITICAL  APPLICATIONS!**
+
 If you really need to use VNC over insecure networks, you should consider to use additional secutity options like VPN or SSH Tunneling.
 
 Known Issues
