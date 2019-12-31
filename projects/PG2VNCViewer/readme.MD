@@ -1,4 +1,5 @@
 ##PG2 VNC Viewer
+
 Initiation
 ----------
 This Program can be used to display remote computer screens into 800xA PG2 graphic displays by using the old, but relyable VNC protocol.
@@ -57,4 +58,4 @@ Known Issues
       
 Installation, Uninstallation, Configuration and Examples
 -------------------------------------------
-... are described in the [pg2 vnc client.pdf](http://./pg2 vnc client.pdf)
+... are described in the [pg2 vnc client.pdf](http://github.com/)
