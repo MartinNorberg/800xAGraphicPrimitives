@@ -1,4 +1,4 @@
-##PG2 VNC Viewer
+## PG2 VNC Viewer
 
 Initiation
 ----------
@@ -43,7 +43,9 @@ VNC is a very old protocol. Encryption and secure login are not mandatory featur
 Summary:
 
 **DO  NOT  USE  VNC  OVER  THE  INTERNET!**
+
 **DO  NOT  USE  VNC  OVER  UNPROTECTED  LAN  NETWORKS!**
+
 **DO  NOT  USE  VNC  FOR  SECURE  CRITICAL  APPLICATIONS!**
 
 If you really need to use VNC over insecure networks, you should consider to use additional secutity options like VPN or SSH Tunneling.
@@ -58,4 +60,4 @@ Known Issues
       
 Installation, Uninstallation, Configuration and Examples
 -------------------------------------------
-... are described in the [pg2 vnc client.pdf](http://github.com/)
+... are described in the **pg2 vnc client.pdf** file.
