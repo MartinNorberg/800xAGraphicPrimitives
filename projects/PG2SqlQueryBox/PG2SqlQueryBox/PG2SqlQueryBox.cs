@@ -10,6 +10,7 @@
     using AfwDynamicGraphics.Media;
     using AfwExpressionHandling;
 
+    [PrimitiveItemAttribute("{1DBBCE9D-8030-4D10-A323-95ED488DBB90}", "Custom:FirstElement", "SqlQueryBox", "Custom Controls", "Displays result of sql query and writes to property")]
     public class PG2SqlQueryBox : FrameItem, ITimerUpdateable
     {
         private protected VariantValue source;
