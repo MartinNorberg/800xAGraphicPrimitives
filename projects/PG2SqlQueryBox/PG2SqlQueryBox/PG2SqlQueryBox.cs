@@ -227,6 +227,7 @@
                     {
                         using (var cmd = new SqlCommand(this.query, con))
                         {
+                            con.Open();
                             cmd.CommandType = System.Data.CommandType.Text;
                             cmd.CommandText = this.query;
                             this.response = cmd.ExecuteScalar().ToString();
