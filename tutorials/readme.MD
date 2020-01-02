@@ -28,8 +28,9 @@ There are many reasons for *not* using this possibility.
 See [Implementation](implementation.MD)
 
 ## Deploying a Graphic Primitive
-See [Deployment](deploy.MD)
+See [Deployment](deploying.MD)
 
 ## How to...
 ... Write PG2 / 800xA variables
+
 ... do proper initialisation / cleanup external resources
