@@ -55,7 +55,11 @@
         public PG2SqlQueryBox(PG2SqlQueryBox ai, GraphicItemVisual visual)
             : base(ai, visual)
         {
-            this.triggCommand = new RelayCommand(_ => this.ExecuteQuery());
+            this.triggCommand = new RelayCommand(_ =>
+            {
+                this.ExecuteQuery();
+                this.DrawItem(this.response);
+            });
 
             this.textBrush = ai.textBrush;
             this.connectionString = ai.connectionString;
@@ -94,8 +98,6 @@
             {
                 this.ExecuteCyclic();
             }
-
-            this.DrawItem(this.response);
         }
 
         protected override Size GetDefaultSize()
@@ -168,11 +170,6 @@
             this.elementView = elementView;
             this.visual = new GraphicItemVisual(this);
             this.ItemDrawingVisual.Children.Add(this.visual);
-            if (this.updateTime != 0)
-            {
-                this.ExecuteCyclic();
-            }
-
             this.DrawItem(this.response);
         }
 
@@ -210,6 +207,7 @@
             if (diffSeconds >= this.updateTime)
             {
                 this.ExecuteQuery();
+                this.DrawItem(this.response);
             }
         }
 
