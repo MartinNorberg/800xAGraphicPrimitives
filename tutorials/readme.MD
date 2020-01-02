@@ -25,4 +25,11 @@ There are many reasons for *not* using this possibility.
     - Ask ABB for signing your Primitive. I have no idea if they do this at all. Not my cup of tea, thats busyness.
 
 ## Creating a Graphic Primitive
-[Implementation](implementation.MD)
+See [Implementation](implementation.MD)
+
+## Deploying a Graphic Primitive
+See [Deployment](deploy.MD)
+
+## How to...
+... Write PG2 / 800xA variables
+... do proper initialisation / cleanup external resources
