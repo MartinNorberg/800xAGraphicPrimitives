@@ -1,7 +1,9 @@
 # Deploying a Graphic Primitive
 Making a created DLL useable two steps are required:
 ## Installing the DLL file
-Just copy the DLL file to the 800xA GraphicPrimitives folder. This is usually ```c:\Program Files (x86)\ABB 800xA\Base\bin\GraphicPrimitives\``` on 6.x or ```c:\Program Files (x86)\ABB Industrial IT\Operate IT\Process Portal A\bin\GraphicPrimitives\``` on 5.1.
+Just copy the DLL file to the 800xA GraphicPrimitives folder. This is usually 
+```c:\Program Files (x86)\ABB 800xA\Base\bin\GraphicPrimitives\``` on 6.x or 
+```c:\Program Files (x86)\ABB Industrial IT\Operate IT\Process Portal A\bin\GraphicPrimitives\``` on 5.1.
 
 The PG2 system checks all DLL files in this folder on first startup. So if you have added a new dll you have to close all Plant Explorer and Graphic Builder instances on this node once before it appears in the Graphic Builder.
 
@@ -33,8 +35,12 @@ C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools>
 ```
 
 After successful running the sn-tool there should be a new key in the regitry:
-```HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\StrongName\Verification\ElementTutorial,2D58152B8E842BE2```
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\StrongName\Verification\ElementTutorial,2D58152B8E842BE2
+```
 or on 32bit systems
-```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\StrongName\Verification\ElementTutorial,2D58152B8E842BE2```
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\StrongName\Verification\ElementTutorial,2D58152B8E842BE2
+```
 
 Helpful if you have to deploy the dll on many nodes: You can export this registry key to a file and import it on other nodes. This saves you from installing the .Net Framework Tools everywhere.
