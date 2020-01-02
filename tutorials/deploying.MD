@@ -2,8 +2,10 @@
 Making a created DLL useable two steps are required:
 ## Installing the DLL file
 Just copy the DLL file to the 800xA GraphicPrimitives folder. This is usually 
-```c:\Program Files (x86)\ABB 800xA\Base\bin\GraphicPrimitives\``` on 6.x or 
-```c:\Program Files (x86)\ABB Industrial IT\Operate IT\Process Portal A\bin\GraphicPrimitives\``` on 5.1.
+```
+c:\Program Files (x86)\ABB 800xA\Base\bin\GraphicPrimitives\``` on 6.x or 
+```
+c:\Program Files (x86)\ABB Industrial IT\Operate IT\Process Portal A\bin\GraphicPrimitives\``` on 5.1.
 
 The PG2 system checks all DLL files in this folder on first startup. So if you have added a new dll you have to close all Plant Explorer and Graphic Builder instances on this node once before it appears in the Graphic Builder.
 
