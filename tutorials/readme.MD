@@ -32,5 +32,3 @@ See [Deployment](deploying.MD)
 
 ## How to...
 ... [Write PG2 / 800xA variables](howto_writevar.MD)
-
-... [do proper initialisation / cleanup external resources](howto_initexit.MD)
